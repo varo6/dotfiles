@@ -11,6 +11,12 @@ config.enable_tab_bar = false
 
 -- For example, changing the color scheme:
 config.color_scheme = 'Tokyo Night Storm (Gogh)'
-
+config.enable_scroll_bar = false
+config.window_padding = {
+  left = 1,
+  right = 1,
+  top = 0,
+  bottom = 0,
+}
 -- and finally, return the configuration to wezterm
 return config
