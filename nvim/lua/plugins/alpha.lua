@@ -6,16 +6,12 @@ return {
   opts = function()
     local dashboard = require("alpha.themes.dashboard")
     -- Define and set highlight groups for each logo line
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo1", { fg = "#311B92" }) -- Indigo
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo2", { fg = "#512DA8" }) -- Deep Purple
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo3", { fg = "#673AB7" }) -- Deep Purple
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo4", { fg = "#9575CD" }) -- Medium Purple
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo5", { fg = "#B39DDB" }) -- Light Purple
-    vim.api.nvim_set_hl(0, "NeovimDashboardLogo6", { fg = "#D1C4E9" }) -- Very Light Purple
+    vim.api.nvim_set_hl(0, "NeovimDashboardLogo1", { fg = "#FF0000" }) -- Red for top part
+    vim.api.nvim_set_hl(0, "NeovimDashboardLogo2", { fg = "#00FF00" }) -- Green for bottom part
     vim.api.nvim_set_hl(0, "NeovimDashboardUsername", { fg = "#D1C4E9" }) -- light purple
--- dashboard.section.header.type = "group"
-		-- header by mohammedbabiker/dotfiles
-    dashboard.section.header.val = {
+
+ --   dashboard.section.header.type = "group"
+ dashboard.section.header.val = {
      -- [[                                                                       ]],
      -- [[                                                                       ]],
      -- [[                                                                       ]],
@@ -35,8 +31,9 @@ return {
       [[                                                                       ]],
       [[                                                                       ]],
       [[                                 <3                                    ]],
+    
     }
-    -- stylua: ignore
+	-- stylua: ignore
     dashboard.section.buttons.val = {
       dashboard.button("f", " " .. " Find file",       "<cmd> Telescope find_files <cr>"),
       dashboard.button("n", " " .. " New file",        "<cmd> ene <BAR> startinsert <cr>"),
