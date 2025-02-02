@@ -1,11 +1,11 @@
 # dotfiles
 
-configuration dotfiles of my linux ricing, used so far:
+configuration dotfiles of my linux ricing, using atm:
 
 - i3 Window manager 
-- wezterm terminal
+- ghostty terminal
+- fastfetch
 - picom 
 - nvim 
 - redshift as alternative to f.lux
 
-added bash script to easily toggle redshift.

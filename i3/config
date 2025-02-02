@@ -206,7 +206,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Color de la barra de highlit de los bordes
 # client.focused #444444 #44444 #444444 #444444
 
-exec_always feh --bg-scale /home/$USER/Images/tribalwallpaper.png
+exec_always feh --bg-scale /home/$USER/.config/i3/tribalwallpaper.png
 exec picom -b --experimental-backends
 
 # Bordes

@@ -1,8 +1,8 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "/home/varo/Images/triballogo.jpeg",
-        "type": "iterm",
+        "source": "~/.config/fastfetch/logoff.png",
+        "type": "kitty",
         "height": 15,
         "width": 30,
         "padding": {
@@ -39,7 +39,7 @@
         },
         {
             "type": "disk",
-            "key": "└ └",
+            "key": "└ └",
             "keyColor": "cyan"
         },
         {
@@ -89,10 +89,15 @@
         },
         {
             "type": "gpu",
-            "key": "└ └󰍛",
+            "key": "│ ├󰍛",
             "format": "{3}",
             "keyColor": "blue"
         },
+        {   "type": "terminal",
+            "key": "└ └",
+            "keyColor": "blue"
+        },
+
         {
             "type": "custom",
             "format": "\u001b[32m└──────────────────────────────────────────────────────────┘"
